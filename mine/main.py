@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
 class Game(QApplication):
     def __init__(self):
         super().__init__([])
-        with open("mine/styles.qss", "r") as f:
+        with open("styles.qss", "r") as f:
             self.setStyleSheet(f.read())
         self.window = MainWindow()
         self.window.show()

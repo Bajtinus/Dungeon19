@@ -1,7 +1,7 @@
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QWidget, QStackedLayout, QVBoxLayout, QPushButton, QHBoxLayout, QLabel
 
-from mine.dungeon import Dungeon
+from mine.dungeon.dungeon import Dungeon
 
 
 class Menu(QWidget):
